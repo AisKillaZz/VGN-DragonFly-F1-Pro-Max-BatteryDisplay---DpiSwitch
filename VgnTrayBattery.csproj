@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>VgnTrayBattery</AssemblyName>
+    <RootNamespace>VgnTrayBattery</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <!-- Keep generated alternate build folders out of the SDK's default source glob. -->
+    <DefaultItemExcludes>$(DefaultItemExcludes);obj-elevated/**;obj-probe/**;bin-elevated/**;bin-probe/**;VgnTrayBattery-source/**;release/**;publish/**</DefaultItemExcludes>
+  </PropertyGroup>
+
+</Project>
